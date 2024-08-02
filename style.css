@@ -1,0 +1,63 @@
+body{
+    background-color: lightblue;
+    font-family: "Grape Nuts", cursive;
+    margin: 20px auto;
+    max-width: 50%;
+    text-align: center;      
+}
+
+h1{
+    color: rgb(36, 87, 138);
+}
+
+button{
+    background-color: rgb(36, 87, 138);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    margin: 5px;
+    padding: 8px 12px;
+    transition: .5 all ease;
+}
+
+button:hover{
+    background-color: rgb(54, 120, 186);
+
+}
+
+form{
+    margin: 20px;
+}
+
+label{
+    display: block;
+    margin-bottom: 5px;
+}
+
+
+input, textarea{
+    box-sizing: border-box;
+    font-size: 20px;
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 100%;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+}
+
+.postItem{
+    background-color: rgb(177, 212, 223);
+    border: 1px solid #a1a6c1;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.editForm{
+    display: none;
+    margin-top: 10px;
+}
